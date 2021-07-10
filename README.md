@@ -49,17 +49,29 @@ $ yarn start:prod
 
 ## Request
 
-UserController {/api/v1/user}: +179ms
+UserController {/api/v1/user}
+
+
 Mapped {/api/v1/user, GET}
+
 Mapped {/api/v1/user/image/:id, GET} 
 
+
+
 PostController {/api/v1/post}
+
 Mapped {/api/v1/post, GET}
 
+
+
 RegisterController {/api/v1/register}
+
 Mapped {/api/v1/register, GET} 
+
 Mapped {/api/v1/register/:id, PATCH}
+
 Mapped {/api/v1/register/:id, DELETE}
+
 Mapped {/api/v1/register/base64, GET}
 
 
